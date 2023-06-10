@@ -1,0 +1,274 @@
+ /* Formato general */
+
+ * {
+     /* outline: 1px solid red; */
+
+     font-family: 'Roboto', sans-serif;
+ }
+
+ * {
+     padding: 0;
+     margin: 0;
+
+ }
+
+ /* Barra horizontal superior */
+
+ .barra-horizontal-sup {
+     background-color: black;
+     height: 50px;
+     padding: 0px 200px 0px 200px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: white;
+
+
+ }
+
+
+ .barra-horizontal-sup-izq {
+     display: flex;
+ }
+
+ .barra-links {
+     display: flex;
+     list-style-type: none;
+     justify-content: flex-start;
+     width: 400px;
+     padding: 10px;
+     color: gray;
+
+
+
+
+ }
+
+ li {
+     padding: 0px 10px 0px 10px;
+
+ }
+
+ .unselected {
+     text-decoration: none;
+     color: gray;
+
+ }
+
+ .selected {
+     font-weight: bold;
+     text-decoration: none;
+     color: gray;
+
+ }
+
+
+ .btn {
+     background-color: turquoise;
+     width: 70px;
+     height: 35px;
+     box-shadow: 5px 5px black;
+     color: white;
+
+ }
+
+
+ #edit_prof_btn {
+     /* background-color: turquoise; */
+     width: 100px;
+     height: 35px;
+     /* box-shadow: 5px 5px black; */
+     color: lightseagreen;
+     border-style: hidden;
+     text-decoration: underline;
+     padding: 0px 0px 0px 20px;
+     background-color: white;
+ }
+
+ /* Cuerpo de la pagina */
+
+ .BodyPerfil {
+
+
+     padding: 0px 200px 0px 200px;
+     display: flex;
+     /* height: 1000px; */
+     Color: black;
+
+
+
+ }
+
+ /* columna izquierda */
+
+ .Left-Col {
+
+     margin: 20px 0px 0px 0px;
+
+     flex: 2;
+ }
+
+
+
+
+ /* Card */
+
+
+ .Card {
+
+
+     height: 300px;
+     border-style: solid;
+     border-color: gray;
+
+ }
+
+ .Card-banner {
+     background-color: turquoise;
+     height: 65px;
+ }
+
+ .Card-body {
+     padding: 40px 20px 0px 20px;
+ }
+
+ .loc {
+     display: inline;
+ }
+
+ .pic {
+     border-radius: 50%;
+     position: absolute;
+     left: 250px;
+     top: 85px;
+ }
+
+ .picloc,
+ .picprof {
+     margin-right: 10px;
+ }
+
+
+ .picprof {
+     position: absolute;
+     left: 225px;
+     top: 310px;
+ }
+
+ /* Education */
+
+ .Education {
+
+     margin: 20px 0px 0px 0px;
+
+     height: 200px;
+     border-style: solid;
+     border-color: gray;
+
+ }
+
+
+ .Edu-Title-Bar {
+
+     background-color: rgb(68, 67, 67);
+     color: white;
+     height: 30px;
+     display: flex;
+     align-items: center;
+ }
+
+ .Edu-Title {
+
+     background-color: rgb(68, 67, 67);
+     padding: 0px 20px 0px 20px;
+
+ }
+
+
+ .Edu-Content {
+     padding: 10px 20px 0px 20px;
+ }
+
+
+ .Edu-fecha {
+
+     color: gray;
+ }
+
+
+ /* Columna derecha */
+
+
+ .Right-Col {
+
+     margin: 20px 0px 0px 20px;
+
+     flex: 1;
+
+ }
+
+
+ /* Connections Request */
+
+ .ConnReq {
+     border-style: solid;
+     border-color: gray;
+ }
+
+ .Counter,
+ .Conn-Title {
+     display: inline;
+ }
+
+ .Counter {
+     border-radius: 50% 50% 50% 50%;
+     width: 20px;
+     background-color: gray;
+     text-align: center;
+ }
+
+ .YourConnCounter {
+     border-radius: 50% 50% 50% 50%;
+     width: 50px;
+     background-color: gray;
+     text-align: center;
+ }
+
+
+ .ConnReqTitle {
+     background-color: rgb(68, 67, 67);
+     color: white;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+
+ .conn-pic {
+     border-radius: 50%;
+     margin: 0px 15px 0px 15px;
+ }
+
+ .namecol {
+     width: 65%;
+ }
+
+
+ /* Your Connections */
+
+ .YourConn {
+     border-style: solid;
+     border-color: gray;
+     margin: 20px 0px 0px 0px;
+
+
+ }
+
+ .ViewMoreBox {
+     border-style: solid none none none;
+     border-color: gray;
+     height: 30px;
+     display: flex;
+     align-items: center;
+ }

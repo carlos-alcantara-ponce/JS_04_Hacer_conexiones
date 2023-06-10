@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Menu horizontal superior -->
+    <div class="barra-horizontal-sup">
+        <div class="barra-horizontal-sup-izq">
+            <h1 class="barra-titulo">Profile</h1>
+            <ul class="barra-links">
+                <li><a href="#" class="unselected">Home</a></li>
+                <li><a href="#" class="selected">My Profile</a></li>
+                <li><a href="#" class="unselected">Find Connections</a></li>
+
+            </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+
+    </div>
+
+    <!-- Cuerpo de la pagina -->
+    <div class="BodyPerfil">
+        <div class="Left-Col">
+            <div class="Card">
+
+                <div class="Card-banner">
+                    <img class="pic" src="./images/jane-m.jpg" alt="Error" width="90">
+                </div>
+                <div class="Card-body">
+
+                    <h1 id="idperfil">Jane Doe</h1>
+                    <img class="picloc" src="./images/map-marker.png" alt="Error" width="15">
+                    <h2 class="loc"> Seattle</h2>
+                    <br>
+                    <p>Developer | Engineer | Problema Solver</p>
+                    <p>Master of Shadows ant the Internet!</p>
+                    <br>
+                    <img class="picprof" src="./images/gear.png" alt="Error" width="20">
+                    <!-- <a class="linkurl" href="www.google.com"> Edit profile</a> -->
+                    <button id="edit_prof_btn" onclick="fcambia_nombre()">Edit profile</button>
+                </div>
+
+            </div>
+            <div class="Education">
+                <div Class="Edu-Title-Bar">
+                    <p class="Edu-Title">Education</p>
+                </div>
+                <div class="Edu-Content">
+                    <p class="Edu-Nom">Coding Dojo - Full Stack Bootcamp</p>
+                    <p class="Edu-fecha">Dec 2019 - Mar 2020</p>
+                    <p class="Edu-detail">Triple black belt in Phyton, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="Right-Col">
+            <div class="ConnReq">
+                <div Class="ConnReqTitle">
+                    <p class="Counter"> <span id="id_num_conn_req">2</span></p>
+                    <p class="Conn-Title">Connection Request</p>
+                </div>
+                <table>
+                    <tr id="connreq_1">
+                        <td><img class="conn-pic" src="./images/todd-s.jpg" alt="Error" width="25"></td>
+                        <td class="namecol">Todd E</td>
+
+                        <td> <img class="checked" src="./images/accept-circle.png" alt="Error" width="25"
+                                onclick="fremoveconnreq(10)"></td>
+                        <td><img class="unchecked" src="./images/close-circle.png" alt="Error" width="25"
+                                onclick="fremoveconnreq(11)"></td>
+                    </tr>
+                    <tr id="connreq_2">
+                        <td><img class="conn-pic" src="./images/phil-s.jpg" alt="Error" width="25"></td>
+                        <td>Phil K</td>
+                        <td> <img class="checked" src="./images/accept-circle.png" alt="Error" width="25"
+                                onclick="fremoveconnreq(20)"></td>
+                        <td><img class="unchecked" src="./images/close-circle.png" alt="Error" width="25"
+                                onclick="fremoveconnreq(21)"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="YourConn">
+                <div Class="ConnReqTitle">
+                    <p class="YourConnCounter"> <span id="id_num_conn"> 418</span> </p>
+                    <p class="Conn-Title">Your Connections</p>
+                </div>
+                <table>
+                    <tr>
+                        <td><img class="conn-pic" src="./images/adrien-s.jpg" alt="Error" width="25"></td>
+                        <td>Adrian D</td>
+                    </tr>
+                    <tr>
+                        <td><img class="conn-pic" src="./images/anne-s.jpg" alt="Error" width="25"></td>
+                        <td>Anne J</td>
+                    </tr>
+                    <tr>
+                        <td><img class="conn-pic" src="./images/alayne-s.jpg" alt="Error" width="25"></td>
+                        <td>Alayne T</td>
+                    </tr>
+                    <tr>
+                        <td><img class="conn-pic" src="./images/arry-s.jpg" alt="Error" width="25"></td>
+                        <td>Arry Y</td>
+                    </tr>
+                </table>
+                <div Class="ViewMoreBox">
+                    <a class="linkurl" href="www.google.com">View More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
